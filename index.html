@@ -2831,7 +2831,6 @@ font-weight: bold;">Мы в соц. сетях:</span><span></span>
 <script>
     $(document).on("click", ".js-subscribe-form", function (e) {
         e.preventDefault();
-        $("html, body").animate({scrollTop: 0}, 800);
         $(".overlay").show();
         $(".popup, .popup-wrapper").hide();
         $($(this).attr('href')).show();

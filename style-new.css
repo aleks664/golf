@@ -21,11 +21,11 @@
     display: block;
     width: 100%;
 }
-input[type="text"].subscribe-form-item__control, .subscribe-form-item__control
+input[type="text"].subscribe-form-item__control,
 .subscribe-form-item__control {
     font-family:  'pt_sans', arial, helvetica, san-serif;
     color: #000;
-    font-size: 18px;
+    font-size: 18px!important;
     line-height: 21px;
     padding: 10px 15px;
     height: auto;
@@ -49,7 +49,7 @@ input[type="text"].subscribe-form-item__control, .subscribe-form-item__control
     border-bottom: 10px solid #000;
 }
 .subscribe-form .b-core-ui-select__dropdown{
-    border-block-color: #000;
+    border-color: #000;
 }
 .subscribe-form .b-core-ui-select__button:after {
     background: transparent;
@@ -77,4 +77,12 @@ form input[type="submit"].subscribe-form-item__btn {
 form input[type="submit"].subscribe-form-item__btn:hover {
     background-color: #FFF;
     color: #000;
+}
+.popup_subscribe-form  .b-core-ui-select__dropdown__wrap {
+    max-height: 100px;
+}
+.subscribe-form .b-core-ui-select__dropdown__item {
+    font-size: 18px;
+    line-height: 21px;
+    padding: 10px 30px 10px 15px;
 }
