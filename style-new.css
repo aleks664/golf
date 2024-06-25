@@ -1,0 +1,80 @@
+.subscribe-form {
+    color: #000;
+    font-family:  'pt_sans', arial, helvetica, san-serif;
+    padding-bottom: 10px;
+}
+.popup_subscribe-form {
+    width: 100%;
+    background: #fff;
+    max-width: 400px;
+    height: 500px;
+}
+.subscribe-form-item {
+    padding: 0 10px;
+    margin-top:10px;
+}
+.subscribe-form-item--img {
+    padding: 0;
+    margin: 0;
+}
+.subscribe-form-item__img {
+    display: block;
+    width: 100%;
+}
+input[type="text"].subscribe-form-item__control, .subscribe-form-item__control
+.subscribe-form-item__control {
+    font-family:  'pt_sans', arial, helvetica, san-serif;
+    color: #000;
+    font-size: 18px;
+    line-height: 21px;
+    padding: 10px 15px;
+    height: auto;
+    border: 1px solid #000;
+}
+.subscribe-form-item__control::placeholder {
+    color: #000;
+    opacity: 1;
+}
+.subscribe-form-item .b-core-ui-select {
+    font-family:  'pt_sans', arial, helvetica, san-serif;
+    color: #000;
+    font-size: 18px;
+    line-height: 21px;
+    padding: 10px 30px 10px 15px;
+    height: auto;
+    border: 1px solid #000;
+}
+.subscribe-form .b-core-ui-select.open .b-core-ui-select__button:after {
+    border-top: 0px solid #000;
+    border-bottom: 10px solid #000;
+}
+.subscribe-form .b-core-ui-select__dropdown{
+    border-block-color: #000;
+}
+.subscribe-form .b-core-ui-select__button:after {
+    background: transparent;
+    border: 7px solid transparent;
+    width: 0;
+    height: 0;
+    right: 9px;
+    top: 17px;
+    border-top: 10px solid #000;
+}
+form input[type="submit"].subscribe-form-item__btn {
+    display: block;
+    width: 100%;
+    height: auto;
+    font-size: 18px;
+    line-height: 21px;
+    padding: 10px 30px 10px 15px;
+    border: 1px solid #000;
+    outline: none;
+    box-shadow: none;
+    background-color: #000;
+    color: #FFF;
+    transition: background-color 0.3s, color 0.3s ;
+}
+form input[type="submit"].subscribe-form-item__btn:hover {
+    background-color: #FFF;
+    color: #000;
+}
